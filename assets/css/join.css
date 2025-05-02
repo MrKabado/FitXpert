@@ -1,0 +1,168 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url(/assets/img/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+/* THE BOTTOM OF THIS IS ALL HEADER CSS */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1.Name { 
+    color: white;
+    margin: 10px 10%;
+}
+
+.span1 {
+    color: #e60000;
+    font-size: larger;
+}
+
+Nav {
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+a.nav-a {
+    padding: 15px 30px;
+    color: #e60000;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#a1:hover, #a2:hover, #a3:hover {
+    color: #660000;
+    transition: ease-in-out 0.3s;
+}
+
+#a4:visited {
+    color: white;
+}
+
+#a4:active {
+    color: white;
+
+}
+
+/* ABbove is header */
+/* BODY */
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(26, 25, 25);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border: 2px solid #af0202
+}
+
+.btn-holder {
+    margin: auto;
+    width: fit-content;
+}
+
+.button {
+    background-color: #af0202;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    border: 1px solid #af0202;
+    color: #af0202;
+}
+
+.button2 {
+    background-color: #af0202;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.button2:hover {
+    background-color: white;
+    border: 1px solid #af0202;
+    color: #af0202;
+}
+
+.result-p {
+    color: green;
+    text-align: center;
+    margin-bottom: 20%;
+}
+
+.div2 {
+    margin: auto;
+    width: fit-content;
+}
+/* FOOTER */
+footer {
+    background-color: black;
+    margin:0;
+    padding: 30px;
+    font-style: italic;
+}
+
+div.footer-holder {
+    font-size:10px;
+    color: white;
+}

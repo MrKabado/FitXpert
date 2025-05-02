@@ -1,0 +1,351 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url(/assets/img/gym2.jpg); 
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* THE BOTTOM OF THIS IS ALL HEADER CSS */
+header { 
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1.Name { 
+    color: white;
+    margin: 10px 10%;
+}
+
+.span1 {
+    color: #e60000;
+    font-size: larger;
+}
+
+Nav {
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+a.nav-a {
+    padding: 15px 30px;
+    color: #e60000;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#a1:hover, #a2:hover, #a4:hover {
+    color: #660000;
+    transition: ease-in-out 0.3s;
+}
+
+#a3:visited {
+    color: white;
+}
+
+#a3:active {
+    color: white;
+
+}
+
+/*The bottom is main*/
+
+/*This is mian*/
+main {
+    flex: 1;
+}
+.global-holder {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.program-holder {
+    margin: 10%;
+}
+
+.title-holder {
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+
+.program1 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.program1-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;;
+}
+
+.p-img1 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.program1-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program1-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+/* 2 */
+
+.program2 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.program2-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    background-image: url(/assets/img/nutrition.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p-img2 {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.program2-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program2-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+/* 3 */
+
+.program3 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.program3-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    background-image: url(/assets/img/virtual\ workout.jpg);
+    background-size: cover;
+}
+
+.p-img3 {
+    width: 100%;
+    height: 100%;
+}
+
+.program3-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program3-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+/* 4 */
+
+.program4 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.program4-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    background-image: url(/assets/img/wellness\ rs.jpeg);
+    background-size: cover;
+}
+
+.p-img4 {
+    max-width: 100%;
+    height: 100%;
+}
+
+.program4-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program4-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+/* 5 */
+
+.program5 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+.program5-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    background-image: url(/assets/img/community\ support.jpg);
+    background-size: cover;
+}
+
+.p-img5 {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.program5-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program5-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+/* 6 */
+
+.program6 {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+.program6-img {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    background-image: url(/assets/img/personal\ trainer.jpg);
+    background-size: cover;
+}
+
+.p-img6 {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.program6-ds {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+}
+
+.program6-ds h3, p {
+    color: rgb(234, 234, 234);
+}
+
+.btn-holder {
+    border: 1px solid white;
+    margin: auto;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-holder:hover {
+    background-color: #7c0d0f;
+}
+
+
+
+
+
+
+/*The bottom is footer*/
+
+footer {
+    background-color: black;
+    margin:0;
+    padding: 30px;
+    font-style: italic;
+}
+
+div.footer-holder {
+    font-size:10px;
+    color: white;
+}
+
+/* Below is for phone view */
+
+@media screen and (max-width: 767px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1.Name {
+        margin: 10px;
+    }
+
+    nav {
+        margin: 10px;
+    }
+
+    a.nav-a {
+        padding: 10px;
+        margin: 5px;
+    }
+}
+

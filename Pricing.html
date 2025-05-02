@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitXpert | Contact us</title>
+
+
+    <link rel="stylesheet" href="/assets/css/Pricing.css"> <!--THis is for the css-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Helvetica+Neue"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Montserrat&family=Roboto:ital,wght@1,100&family=Rubik+Doodle+Shadow&family=Rubik+Scribble&family=Ubuntu&display=swap');
+        </style>
+        
+    
+    <link rel="icon" href="/assets/img/FX.png" type="image/x-icon">
+
+    <script src="/assets/js/FitXpert.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="Name">Fit<span class="span1">X</span>pert</h1>
+        <nav>
+            <table>
+                <tr>
+                    <td id="a1"><a href="index.html" id="a1" class="nav-a"><span class="home">Home</span></a></td>
+                    <td id="a2"><a href="About-us.html" id="a2" class="nav-a">About Us</a></td>
+                    <td id="a3"><a href="Services.html" id="a3" class="nav-a">Program</a></td>
+                    <td id="a4"><a href="Pricing.html" id="a4" class="nav-a">Pricing</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+    <main>       
+        <div class="pricing-holder">
+            <h1 class="pricing_title">PRICING</h1>
+            <h1 class="pricing_subtitle">OUR PRICING PLAN</h1>
+
+            <pre>
+
+
+            </pre>
+
+            <div class="offers">
+
+            <div class="basic_package">
+                <h1 class="logo1"><i class="fa-solid fa-handshake"></i></h1>
+                <h2>BASIC PACKAGE</h2>
+                <h3>₱500</h3><br>
+                <p><i class="fa-regular fa-circle-check"></i> 5 days a week/ 1 month</p>
+                <span class="span2"><p><i class="fa-regular fa-circle-check"></i> Fit Expert Sweatshirt</p>
+                <p><i class="fa-regular fa-circle-check"></i> 1 Free Bottle of Protein</p>
+                <p><i class="fa-regular fa-circle-check"></i> Access to Videos</p>
+                <p><i class="fa-regular fa-circle-check"></i> Muscle Stretching</p></span>
+                <pre>
+
+                </pre>
+                <a href="#" class="purchase_now">Purchase Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="premium_package">
+                <h1 class="logo1"><i class="fa-solid fa-crown"></i></h1>
+                <h2>PREMIUM PACKAGE</h2>
+                <h3>₱1000</h3><br>
+                <p><i class="fa-regular fa-circle-check"></i> 5 days a week/ 1 month</p>
+                <p><i class="fa-regular fa-circle-check"></i> Fit Expert Sweatshirt</p>
+                <p><i class="fa-regular fa-circle-check"></i> 1 Free Bottle of Protein</p>
+                <span class="span2"><p><i class="fa-regular fa-circle-check"></i> Access to Videos</p>
+                <p><i class="fa-regular fa-circle-check"></i> Muscle Stretching</p></span>
+                <pre>
+
+                </pre>
+                <a href="#" class="purchase_now">Purchase Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="diamond_package">
+                <h1 class="logo1"><i class="fa-solid fa-gem"></i></h1>
+                <h2>DIAMOND PACKAGE</h2>
+                <h3>₱1200</h3><br>
+                <p><i class="fa-regular fa-circle-check"></i> 5 days a week/ 1 month</p>
+                <p><i class="fa-regular fa-circle-check"></i> Fit Expert Sweatshirt</p>
+                <p><i class="fa-regular fa-circle-check"></i> 1 Free Bottle of Protein</p>
+                <p><i class="fa-regular fa-circle-check"></i> Access to Videos</p>
+                <p><i class="fa-regular fa-circle-check"></i> Muscle Stretching</p>
+                <pre>
+
+                </pre>
+                <a href="#" class="purchase_now">Purchase Now <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="calculate section">
+            <div class="calculate_container container_grid">
+                <div class="calculate_content">
+                    <div class="class_titles">
+                        <h1 class="title1">CALCULATE</h1>
+                        <h1 class="title2">YOUR BMI</h1>
+                        </h1>
+                    </div>
+
+                    <p class="calculate_description">The body mass index (BMI)
+                        body mass index from your weight and height.
+                    </p>
+
+                    <form action="" class="calculate_form" id="calculate-form" onsubmit="bmicalculator(event)">
+                        <div class="calculate_box">
+                            <input type="number" placeholder="Height" class="calculate_input" id="calculate-cm" step="any" required>
+                            <label for="" class="calculate_label">cm</label>
+                        </div>
+                        <div class="calculate_box">
+                            <input type="number" placeholder="Weight" class="calculate_input" id="calculate-kg" step="any" required>
+                            <label for="" class="calculate_label">kg</label>
+                        </div>
+
+                        <button type="submit" placeholder="CALCULATE NOW" class="button button_flex" onclick="bmicalculator()">
+                            Calculate Now <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                        </form>
+                    <pre>
+                        
+                    </pre>
+
+                    <div class="results">
+                        <div>
+                            <p class="calculate_result">RESULT:</p>
+                            <p class="calculate_message" id="calculate_message">RESULTS</p>
+                        </div>
+                        <pre>
+                        
+                        </pre>
+                        <div>
+                            <p class="calculate_classification">CLASSIFICATION:</p>
+                            <p class="calculate_message2" id="calculate_message2">CLASSIFICATION</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-holder">
+            <p>Stay Fit with FitXpert<br>Your Ultimate Fitness Companion</p>
+            <p>FitXpert is your go-to source for all things fitness and exercise. Our mission is to inspire and empower you on your fitness journey, providing expert guidance, workout routines, nutrition tips, and more.
+            </p><hr>
+            <p>Connect with us on social media:<br>
+                <p><i class="fa-brands fa-facebook"></i> FitXpert</p>
+                <p><i class="fa-regular fa-envelope"></i> jersonjaybonghanoy@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +639915337918</p></p>
+        </div>
+    </footer>
+</body>
+</html>

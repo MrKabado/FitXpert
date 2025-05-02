@@ -1,0 +1,463 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/assets/img/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* THE BOTTOM OF THIS IS ALL HEADER CSS */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1.Name { 
+    color: rgb(234, 234, 234);
+    margin: 10px 10%;
+}
+
+.span1 {
+    color: #e60000;
+    font-size: larger;
+}
+
+Nav {
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 10px;  
+    width: fit-content;
+}
+
+a.nav-a {
+    padding: 15px 30px;
+    color: #e60000;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#a2:hover, #a3:hover, #a4:hover {
+    color: #660000;
+    transition: 0.3s ease-in-out;
+}
+
+#a1:visited {
+    color: rgb(234, 234, 234);
+}
+
+/* THE ABOVE OF THIS IS ALL HEADER CSS */
+
+
+/* Under this comment is Main */
+main {
+    flex: 1;
+}
+
+.div1 {
+    margin: 0;
+    border-style: none;
+    height: 100%;
+
+}
+.quote {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(234, 234, 234);
+    padding: 2%;
+    margin: 10% 8% 0 10%;
+    border: 3px solid #e60000;
+    border-right-style: none;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-top: 50%;
+}
+
+span.span2 {
+    color: #e60000;
+}
+
+span.span3 {
+    color: #00cc00;
+}
+
+.introduction {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10%;
+}
+
+.introduction h2{
+    color: rgb(234, 234, 234);
+}
+
+.introduction-p {
+    color: rgb(234, 234, 234);
+    text-align: justify;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+.join-holder {
+    margin: auto;
+    width: fit-content;
+}
+
+.join_today {
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #d71619;
+    text-align: center;
+    color: rgb(234, 234, 234);
+    font-size: 20px;
+}
+
+.join_today:hover {
+    background-color: #bc1417;
+    transition: 0.3s ease;
+}
+
+.section_header {
+    margin: 20px;
+    color: rgb(234, 234, 234);
+}
+
+.explore_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.explore_nav span {
+    padding: 0 6px;
+    font-size: 1.5rem;
+    color: rgb(234, 234, 234);
+    border: 2px solid rgb(234, 234, 234);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.explore_nav span:hover {
+    color: red;
+    border-bottom: red;
+}
+
+.explore_grid {
+    margin-top: 4rem;
+    margin: 20px;
+    display: flex;
+    grid-template-columns: repeat(4, lfr);
+    gap: 2rem;
+}
+
+.explore_card {
+    padding: 1rem;
+    background-color: rgb(26, 25, 25);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(26, 25, 25);
+    border-radius: 10px;
+    transition: 0.3s;
+
+}
+
+.explore_card:hover {
+    background-color: rgb(41, 39, 39);
+    border-color:#d71619;
+
+}
+
+.explore_card span {
+    display: inline-block;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color:#d71619;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.explore_card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(234, 234, 234);
+}
+
+.explore_card p {
+    margin-bottom: 1rem;
+    color: rgb(183, 180, 180);
+}
+
+.explore_card a {
+    color: rgb(234, 234, 234);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.explore_card a:hover {
+    color:#d71619;
+} 
+
+.more-info {
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-size: small;
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+    font-weight: bold;
+    background-color: #d71619;
+    transition: 0.3s ease-in-out;
+}
+
+.info-holder {
+    margin: auto;
+    width: fit-content;
+}
+
+.more-info:hover {
+    background-color: #a81214;
+}
+
+.class_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 5%;
+    margin-bottom: 20%;
+}
+
+.class_image {
+    position: relative;
+}
+
+.class_image .class_img1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.class_image .class_img2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 300px;
+    border-radius: 10px;
+    
+}
+
+.class_content {
+    padding: 2rem 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.class_content .section_header {
+    text-align: left;
+    max-width: 400px;
+}
+
+.section_header {
+    color: #bc1417;
+    font-weight: bolder;
+}
+
+.class_content p {
+    margin-bottom: 4rem;
+    color: rgb(183, 180, 180) ;
+    text-align: justify;
+}
+
+.button_joinnow {
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: #d71619;
+    color: rgb(183, 180, 180);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.button_joinnow:hover {
+    background-color: #a81214;
+    transition: 0.3s ease;
+}
+
+.connect_with_us {
+    background-color: rgb(26, 25, 25);
+    height: auto;
+    padding: 20px 20%;
+}
+
+.descriptions {
+    padding: 20px;
+}
+
+.connect_title {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.span4 {
+    border: 2px solid transparent;
+    padding: 5px 10px;
+    background-color: #a81214;
+    transition: 0.3s ease-in-out;
+}
+
+.span4:hover {
+    border: 2px solid #a81214;
+    background-color: transparent;
+    color: #a81214;
+}
+
+.connect_description {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+
+.connect_form {
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.fname, .lname, .email {
+    background-color: white;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #a81214;
+    border-left-style: hidden;
+    border-top-style: hidden;
+    border-right-style: hidden;
+}
+
+.fname:hover, .lname:hover, .email:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.submit-btn {
+    border: 1px solid transparent;
+    background-color: #a81214;
+    width: 100px;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #660000;
+}
+
+.submited {
+    text-align: center;
+    padding: 20px;
+    color: #00cc00;
+}
+
+.connect_description2 {
+    font-size: 10px;
+    font-weight: 10;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+/* Under this comment is Footer */
+
+footer {
+    background-color: black;
+    margin:0;
+    padding: 30px;
+    font-style: italic;
+}
+
+div.footer-holder {
+    font-size:10px;
+    color: white;
+}
+
+
+/* Below is for phone view */
+
+@media screen and (max-width: 767px) {
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1.Name {
+        margin: 10px;
+    }
+
+    nav {
+        margin: 10px;
+    }
+
+    a.nav-a {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    /* Below is body */
+
+    .explore_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .explore_card {
+        margin-bottom: 2rem;
+    }
+
+    .class_image {
+        max-width: 100%;
+        border-radius: 0;
+       
+    }
+
+    .class_image .class_img1,
+    .class_image .class_img2 {
+        max-width: 100%;
+        border-radius: 0;
+    }
+    
+}
+
+
+
+
+
+

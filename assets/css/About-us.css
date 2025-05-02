@@ -1,0 +1,250 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url(/assets/img/gym2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* THE BOTTOM OF THIS IS ALL HEADER CSS */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1.Name { 
+    color: white;
+    margin: 10px 10%;
+}
+
+.span1 {
+    color: #e60000;
+    font-size: larger;
+}
+
+Nav {
+    margin: 10px;
+    margin-right: 50px;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+a.nav-a {
+    padding: 15px 30px;
+    color: #e60000;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#a1:hover, #a3:hover, #a4:hover {
+    color: #660000;
+    transition: ease-in-out 0.3s;
+}
+
+#a2:visited {
+    color: white;
+}
+
+#a2:active {
+    color: white;
+
+}
+
+/* ABbove is header */
+
+/* Bottom is main */
+main {
+    flex: 1;
+}
+
+.global-holder {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutus {
+    border: 1px solid transparent;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(26, 25, 25); */
+}
+
+.image-holder {
+    border: 2px solid #7c0d0f;
+    width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.aboutus-img1 {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.description-holder {
+    border: 2px solid #7c0d0f;
+    padding: 20px;
+    width: 100%;
+    /* background-color: #7c0d0f;
+    background-color: white; */
+    backdrop-filter: blur(5px);
+    background-color: rgb(26, 25, 25);
+}
+
+.aboutus-title {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.aboutus-title:hover {
+    background-color: white;
+    color: #7c0d0f;
+}
+
+.aboutus-p1 {
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
+
+.icon-holder {
+    border: 1px solid tra;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-holder h1 {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.icon-holder h1:hover {
+    border: 2px solid transparent;
+    background-color: white;
+    color: #7c0d0f;
+}
+
+/* DEVELOPERS PROFILE */
+.devs-container {
+    margin: auto;
+    width: fit-content;
+}
+
+.developers-pp {
+    color: white;
+    padding: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    font-size: 20px;
+    transition: 0.3s     ease-in-out;
+}
+
+.developers-pp:hover {
+    border-color: #e60000;
+    background-color: #e60000;
+    color: white;
+}
+
+.profile {
+    width: 200px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 10%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: smaller;
+    transition: 0.3s ease;
+}
+
+.container:hover {
+    border-color: red;
+}
+
+.c1 dl dd {
+    padding: 3px;
+}
+
+section li {
+    padding: 5px;
+}
+
+/*The bottom is footer*/
+
+footer {
+    background-color: black;
+    margin:0;
+    padding: 30px;
+    font-style: italic;
+}
+
+div.footer-holder {
+    font-size:10px;
+    color: white;
+}
+
+/* Below is for phone view */
+
+@media screen and (max-width: 767px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    h1.Name {
+        margin: 10px;
+    }
+
+    nav {
+        margin: 10px;
+    }
+
+    a.nav-a {
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+
+
+
+
